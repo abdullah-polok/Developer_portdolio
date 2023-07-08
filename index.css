@@ -146,15 +146,80 @@ main {
 
 .section-info-card {
 
-    width: 267px;
+    padding: 30px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    gap: 24px;
+}
 
+.skill-title {
+    color: #181818;
 
 }
 
-.section-info-card img,
-h2,
-p {}
+.skill-description {
+    color: #757575;
+}
+
+
+/* Summary of resume  */
+.resume-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.edu-resume>h2 {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.experi-resume>h2 {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dree {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resume-versity {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.resume-description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+hr {
+    margin: 30px;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
